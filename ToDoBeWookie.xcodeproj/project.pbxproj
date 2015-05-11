@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9621F1941B00788C00BB018C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621F1931B00788C00BB018C /* DetailsViewController.swift */; };
 		96E6AF081AF55C1000942760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E6AF071AF55C1000942760 /* AppDelegate.swift */; };
 		96E6AF0B1AF55C1000942760 /* ToDoBeWookie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96E6AF091AF55C1000942760 /* ToDoBeWookie.xcdatamodeld */; };
-		96E6AF0D1AF55C1000942760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E6AF0C1AF55C1000942760 /* ViewController.swift */; };
+		96E6AF0D1AF55C1000942760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E6AF0C1AF55C1000942760 /* ListViewController.swift */; };
 		96E6AF101AF55C1000942760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E6AF0E1AF55C1000942760 /* Main.storyboard */; };
 		96E6AF121AF55C1000942760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E6AF111AF55C1000942760 /* Images.xcassets */; };
 		96E6AF151AF55C1000942760 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E6AF131AF55C1000942760 /* LaunchScreen.xib */; };
@@ -27,11 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9621F1931B00788C00BB018C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		96E6AF021AF55C1000942760 /* ToDoBeWookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoBeWookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E6AF061AF55C1000942760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96E6AF071AF55C1000942760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E6AF0A1AF55C1000942760 /* ToDoBeWookie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoBeWookie.xcdatamodel; sourceTree = "<group>"; };
-		96E6AF0C1AF55C1000942760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96E6AF0C1AF55C1000942760 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		96E6AF0F1AF55C1000942760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96E6AF111AF55C1000942760 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96E6AF141AF55C1000942760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,7 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				96E6AF071AF55C1000942760 /* AppDelegate.swift */,
-				96E6AF0C1AF55C1000942760 /* ViewController.swift */,
+				96E6AF0C1AF55C1000942760 /* ListViewController.swift */,
+				9621F1931B00788C00BB018C /* DetailsViewController.swift */,
 				96E6AF0E1AF55C1000942760 /* Main.storyboard */,
 				96E6AF111AF55C1000942760 /* Images.xcassets */,
 				96E6AF131AF55C1000942760 /* LaunchScreen.xib */,
@@ -215,9 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E6AF0D1AF55C1000942760 /* ViewController.swift in Sources */,
+				96E6AF0D1AF55C1000942760 /* ListViewController.swift in Sources */,
 				96E6AF0B1AF55C1000942760 /* ToDoBeWookie.xcdatamodeld in Sources */,
 				96E6AF081AF55C1000942760 /* AppDelegate.swift in Sources */,
+				9621F1941B00788C00BB018C /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +419,7 @@
 				96E6AF261AF55C1000942760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96E6AF271AF55C1000942760 /* Build configuration list for PBXNativeTarget "ToDoBeWookieTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				96E6AF291AF55C1000942760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
